@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "day_name"
+
+DayName::CLI.parse(date_string: ARGV[0])

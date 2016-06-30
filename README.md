@@ -1,28 +1,33 @@
 # DayName
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/day_name`. To experiment with that code, run `bin/console` for an interactive prompt.
+Given a date, prints the corresponding week day name.
 
-TODO: Delete this and the text above, and describe your gem
+Made with <3 by [@olistik](https://olisti.co).
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'day_name'
+```shell
+gem install day_name
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install day_name
 
 ## Usage
 
-TODO: Write usage instructions here
+Considering that today is 2016-06-30:
+
+```shell
+$ day_name 11
+2016-06-11 is Saturday
+```
+
+```shell
+$ day_name 08-11
+2016-08-11 is Thursday
+```
+
+```shell
+$ day_name 2017-09-25
+2017-09-25 is Monday
+```
 
 ## Development
 
@@ -32,5 +37,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/day_name. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/olistik/day_name. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+## License
+
+GNU General Public License (GPL) version 3
+
+- [gnu.org](https://www.gnu.org/licenses/gpl-3.0.txt)
+- [repository copy](gpl-3.0.txt)
